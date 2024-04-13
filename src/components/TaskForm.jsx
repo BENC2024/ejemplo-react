@@ -11,7 +11,7 @@ function TaskForm() {
 
    const handleSubmit = (e) => {
       e.preventDefault() //Los eventos como el boton reinician el navegador
-      createTasks({title,description})
+      createTask({title,description})
       setTitle('')
       setDescription('')
    }
